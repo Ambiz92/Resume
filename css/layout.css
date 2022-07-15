@@ -250,16 +250,30 @@ ul#nav li.current a { color: #F06000; }
    text-transform: uppercase;
    letter-spacing: 1px;
 }
+#resume h2 {
+   font: 15px/20px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
 #resume h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
+#resume h2 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
+#resume .skills-col { 
+   padding-right: 10%; 
+   padding-top: 5%;
+}
 
 .education, .work {
    margin-bottom: 48px;
@@ -299,7 +313,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 20px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -320,7 +334,7 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
+  	height: 20px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }

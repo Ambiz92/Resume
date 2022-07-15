@@ -74,6 +74,76 @@
         "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
+    "language":[
+      {
+        "name":"Python",
+        "level":"70%",
+        "image":"python.png"
+      },
+      {
+        "name":"Java",
+        "level":"70%"
+      },
+      {
+        "name":"C/C++",
+        "level":"60%",
+        "icon":"c/c++"
+      },
+      {
+        "name":"JavaScript",
+        "level":"50%"
+      },
+      {
+        "name":"PHP",
+        "level":"40%"
+      },
+      {
+        "name":"SQL",
+        "level":"70%"
+      },
+      {
+        "name":"HTML/CSS",
+        "level":"50%"
+      }
+    ],
+    "framework":[
+      {
+        "name":"Spring Boot",
+        "level":"60%"
+      },
+      {
+        "name":"Flask",
+        "level":"50%"
+      },
+      {
+        "name":"React.js",
+        "level":"30%"
+      }
+    ],
+    "software": [
+      {
+        "name": "Confluence",
+        "level": "60%"
+      },
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Docker",
+        "level": "40%"
+      },
+      {
+        "name": "Office360",
+        "level": "70%"
+      }
+    ],
+    "cloudComputer": [
+      {
+        "name": "Google Cloud Platform (GCP)",
+        "level": "40%"
+      }
+    ],
     "skills": [
       {
         "name": "Git",
