@@ -15,7 +15,6 @@
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
     "social": [
       {
         "name": "facebook",
@@ -46,6 +45,7 @@
   },
   "resume": {
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "resumedownload": "/francesco_sebastiani.pdf",
     "education": [
       {
         "school": "University?",
@@ -77,8 +77,7 @@
     "language":[
       {
         "name":"Python",
-        "level":"70%",
-        "image":"python.png"
+        "level":"70%"
       },
       {
         "name":"Java",
@@ -86,8 +85,7 @@
       },
       {
         "name":"C/C++",
-        "level":"60%",
-        "icon":"c/c++"
+        "level":"60%"
       },
       {
         "name":"JavaScript",
@@ -134,7 +132,7 @@
         "level": "40%"
       },
       {
-        "name": "Office360",
+        "name": "Office365",
         "level": "70%"
       }
     ],

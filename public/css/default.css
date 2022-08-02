@@ -464,12 +464,13 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: #3f3f3f;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
    color: #fff;
 	padding: 12px 20px;
+   margin-right: 30px;
 	margin-bottom: 18px;
    border: none;
    cursor: pointer;
@@ -620,6 +621,13 @@ input[type="checkbox"] { display: inline; }
    min-height: 1px;
    float: left;
 }
+.downloadColum{
+   position: relative;
+   padding: 0 20px;
+   min-height: 1px;
+   float: right;
+}
+
 .column.centered, .columns.centered  {
     float: none;
     margin: 0 auto;

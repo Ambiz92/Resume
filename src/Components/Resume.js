@@ -18,7 +18,7 @@ class Resume extends Component {
       })
       var language = this.props.data.language.map(function (language) {
         var className = 'bar-expand ' + language.name.toLowerCase();
-        return <li key={language.name}><span style={{ width: language.level }} className={className}></span><em>{language.name}</em><i className={language.image}></i></li>
+        return <li key={language.name}><span style={{ width: language.level }} className={className}></span><em>{language.name}</em></li>
       })
       var framework = this.props.data.framework.map(function (framework) {
         var className = 'bar-expand ' + framework.name.toLowerCase();
@@ -32,6 +32,7 @@ class Resume extends Component {
         var className = 'bar-expand ' + cloudComputer.name.toLowerCase();
         return <li key={cloudComputer.name}><span style={{ width: cloudComputer.level }} className={className}></span><em>{cloudComputer.name}</em></li>
       })
+      var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
@@ -62,8 +63,6 @@ class Resume extends Component {
             {work}
           </div>
         </div>
-
-
 
         <div className="row skill">
 
@@ -142,7 +141,15 @@ class Resume extends Component {
             </div>
           </div>
           {/* END - cloudComputer section */}
-
+          <div>
+            <div className="nine downloadColum skills-col">
+              <div className="downloadColum download">
+                <p>
+                  <a href={resumeDownload} className="button" download><i className="fa fa-download"></i>Download Resume</a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     );

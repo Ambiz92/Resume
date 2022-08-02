@@ -237,6 +237,11 @@
       
    .bars { width: 100%; }
 
+   #resume .download .button {
+      width: 100%;
+      text-align: center;
+      padding: 15px 20px;
+   }
 
    /* Call To Action Section
    /* ----------------------------------------------------------------- */
